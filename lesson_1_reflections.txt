@@ -1,0 +1,25 @@
+Que: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Ans: We can see if any typo was made.
+We can also check whether some logic change was made to include new functionality,
+that in turn caused bug to arise.
+In short, we can check for any changest that might have introduced bugs in new version.
+
+Que: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Ans: We, if in future, need to make some identify changes made or need to revert back some changes then, we can simply use old history files or just copy paste changes done from it and will not have to do job manually.
+
+Que: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Ans: Pros: Easy maintainance as commit is as per our choice.
+Cons: More prone to human errors and avoidance or ignorance of commit.
+
+Que: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Ans: Git is more used by programmers to store versions of same project. In programming its more likely that files are interrelated, thus Git offers multi-file commit.
+But in Google docs, its more likely that each doc is having different info than another. Thus, multi-file commit is not required much.
+
+Que: How can you use the commands git log and git diff to view the history of files?
+Ans: From git log, first we will see all commits made to project, then with help of git diff we will find differenced, this way we can use git log and git diff to view history of files.
+
+Que: How might using version control make you more confident to make changes that could break something?
+Ans: We can make changes more confidentl becuase we know that if we make any mistake we can simply revert back to original file.
+
+Que: Now that you have your workspace set up, what do you want to try using Git for?
+Ans: For learning purpose.
