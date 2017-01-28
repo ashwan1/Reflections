@@ -3,3 +3,6 @@ Ans: A new .git folder is created. To create git repository we need to run comma
 
 Que: How is the staging area different from the working directory and the repository? What value do you think it offers?
 Ans: Staging area is like intermediate storage for files that we think are ready to commit. This way we can actually first add multiple files in staging area and then commit them together. This gives us more control over files we might need to commit.
+
+Que: How can you use the staging area to make sure you have one commit per logical change?
+Ans: We can use git diff --staged to ensure that what all commits have been done so far and commit that we are going to make is logicaly different from other commits.
