@@ -1,0 +1,5 @@
+Que: What happens when you initialize a repository? Why do you need to do it?
+Ans: A new .git folder is created. To create git repository we need to run command git init inside directory for which we need to create a git.
+
+Que: How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ans: Staging area is like intermediate storage for files that we think are ready to commit. This way we can actually first add multiple files in staging area and then commit them together. This gives us more control over files we might need to commit.
