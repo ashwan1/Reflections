@@ -6,3 +6,16 @@ Ans: Staging area is like intermediate storage for files that we think are ready
 
 Que: How can you use the staging area to make sure you have one commit per logical change?
 Ans: We can use git diff --staged to ensure that what all commits have been done so far and commit that we are going to make is logicaly different from other commits.
+
+Que: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Ans: Branches are helpful if we don't want to mess with original working project and instead want to incooperate new feature or new experimental feature. This way we can create branch and add new feature in that branch.
+
+Que: How do the diagrams help you visualize the branch structure?
+Ans: It helps us better understand our current branches.
+
+Que: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Ans: Changes made in one branch get merged in another branch.Becuase it can have 2 or more parents.
+
+Que: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Ans: Pros- All lines added in new branch will be added into merged commit, thus extending functionality.
+cons- It will not resolve conflicts automatically.
