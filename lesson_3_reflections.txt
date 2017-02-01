@@ -1,0 +1,2 @@
+Que: When would you want to use a remote repository rather than keeping all your work local?
+Ans: I would most likely to it when creating new project with collaboration with other friends. Also if I want to make my new project open source so that everyone can see and contribute to it to make it better. I will also do this because I myself love open source.
