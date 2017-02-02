@@ -3,3 +3,8 @@ Ans: I would most likely to it when creating new project with collaboration with
 
 Que: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Ans: Github is more likely to be used for collaboration. So I someone make changes to my repository and it automatically gets updated with my local, then my local may end up with changes that I don't want in my project. It will also increase chances for notorious people to corrupt my project. Thus its better to review first on github and then pull changes if we want.
+
+Que: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Ans: Fork is cloning of someone repository to our own repository only on github. Most likely to do this when don't have permission to modify another person's repository or want to maintain my own repository.
+Clones basically means copying one repository onto local or onto github
+Branches are like different path on commit history. If we want to make some change but don't want to mess up things in original content then we use branch command to create another branch.
