@@ -14,3 +14,6 @@ Ans: We can work on it offline and push changes back on github when have interne
 
 Que: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Ans: We can colaborate using some shared document over internet services like outlook or g-drive. But that will not provide with features that we are getting in github. Moreover, most tasks will need to done manually.
+
+Que: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Ans: When we are not sure of experimental feature then we will make changes in another branch then master.  But If I am sure that I want to make this change and no fear of breaking things up then will use master branch.
